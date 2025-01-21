@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<data>
+  <value type="list" content-type="object" content-struct-name="db.DatatypeGroup">
+    <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.numeric">
+      <value type="string" key="caption">数字类型</value>
+      <value type="string" key="description">数据类型存储不同尺寸的数字</value>
+      <value type="string" key="name">numeric</value>
+    </value>
+    <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.string">
+      <value type="string" key="caption">字符串</value>
+      <value type="string" key="description">数据类型要存储较短的文本</value>
+      <value type="string" key="name">string</value>
+    </value>
+    <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.text">
+      <value type="string" key="caption">长文本类型</value>
+      <value type="string" key="description">数据类型存储长文本</value>
+      <value type="string" key="name">text</value>
+    </value>
+    <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.blob">
+      <value type="string" key="caption">Blob类型</value>
+      <value type="string" key="description">数据类型存储二进制数据</value>
+      <value type="string" key="name">blob</value>
+    </value>
+    <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.datetime">
+      <value type="string" key="caption">日期和时间类型</value>
+      <value type="string" key="description">存储日期和时间值的数据类型</value>
+      <value type="string" key="name">datetime</value>
+    </value>
+    <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.gis">
+      <value type="string" key="caption">地理类型</value>
+      <value type="string" key="description">存储地理信息的数据类型</value>
+      <value type="string" key="name">gis</value>
+    </value>
+    <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.various">
+      <value type="string" key="caption">各种类型</value>
+      <value type="string" key="description">各种数据类型</value>
+      <value type="string" key="name">various</value>
+    </value>
+    <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.userdefined">
+      <value type="string" key="caption">用户定义的类型</value>
+      <value type="string" key="description">用户定义的数据类型</value>
+      <value type="string" key="name">userdefined</value>
+    </value>
+    <value type="object" struct-name="db.DatatypeGroup" id="com.mysql.rdbms.common.typegroup.structured">
+      <value type="string" key="caption">结构化类型</value>
+      <value type="string" key="description">结构化数据类型，由简单和其他结构化数据类型的集合组成</value>
+      <value type="string" key="name">structured</value>
+    </value>
+  </value>
+</data>

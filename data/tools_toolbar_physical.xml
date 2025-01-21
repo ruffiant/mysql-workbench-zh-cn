@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+
+<data>
+  <value type="object" struct-name="app.Toolbar" id="com.mysql.wb.toolbar.tools.physical">
+    <value type="string" key="name">tools</value>
+    <value type="string" key="accessibilityName">身体的</value>
+    <value type="list" key="items" content-type="object" content-struct-name="app.ToolbarItem">
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.separator.table">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="itemType">separator</value>
+        <value type="string" key="accessibilityName">分离器</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.table">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="name">tool/table</value>
+        <value type="string" key="icon">wb_db_table.png</value>
+        <value type="string" key="tooltip">放一张新桌子</value>
+        <value type="string" key="itemType">radio</value>
+        <value type="string" key="command">tool:physical/table</value>
+        <value type="string" key="accessibilityName">放置新桌子</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.view">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="name">tool/view</value>
+        <value type="string" key="icon">wb_db_view.png</value>
+        <value type="string" key="itemType">radio</value>
+        <value type="string" key="tooltip">放置新的视图</value>
+        <value type="string" key="command">tool:physical/view</value>
+        <value type="string" key="accessibilityName">放置新的视图</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.rg">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="name">tool/routinegroup</value>
+        <value type="string" key="icon">wb_db_routinegroup.png</value>
+        <value type="string" key="tooltip">放置一个新的例行组</value>
+        <value type="string" key="itemType">radio</value>
+        <value type="string" key="command">tool:physical/routinegroup</value>
+        <value type="string" key="accessibilityName">放置新的常规组</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.separator.rel">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="itemType">separator</value>
+        <value type="string" key="accessibilityName">分离器</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.rel11_noid">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="name">tool/rel11_noid</value>
+        <value type="string" key="icon">wb_rel_11_nonid.png</value>
+        <value type="string" key="darkIcon">wb_rel_11_nonid_dark.png</value>
+        <value type="string" key="tooltip">放置新的1：1非识别关系</value>
+        <value type="string" key="itemType">radio</value>
+        <value type="string" key="command">tool:physical/rel11_noid</value>
+        <value type="string" key="accessibilityName">放置新的1比1关系</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.rel1n_noid">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="name">tool/rel1n_noid</value>
+        <value type="string" key="icon">wb_rel_1n_nonid.png</value>
+        <value type="string" key="darkIcon">wb_rel_1n_nonid_dark.png</value>
+        <value type="string" key="tooltip">放置新的1：n非识别关系</value>
+        <value type="string" key="itemType">radio</value>
+        <value type="string" key="command">tool:physical/rel1n_noid</value>
+        <value type="string" key="accessibilityName">放置新的1至n关系</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.rel11">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="name">tool/rel11</value>
+        <value type="string" key="icon">wb_rel_11.png</value>
+        <value type="string" key="darkIcon">wb_rel_11_dark.png</value>
+        <value type="string" key="tooltip">放置新的1：1识别关系</value>
+        <value type="string" key="itemType">radio</value>
+        <value type="string" key="command">tool:physical/rel11</value>
+        <value type="string" key="accessibilityName">放置新的1比1识别关系</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.rel1n">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="name">tool/rel1n</value>
+        <value type="string" key="icon">wb_rel_1n.png</value>
+        <value type="string" key="darkIcon">wb_rel_1n_dark.png</value>
+        <value type="string" key="tooltip">放置新的1：n识别关系</value>
+        <value type="string" key="itemType">radio</value>
+        <value type="string" key="command">tool:physical/rel1n</value>
+        <value type="string" key="accessibilityName">将新的1到n识别关系</value>
+      </value>
+
+     <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.relnm">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="name">tool/relnm</value>
+        <value type="string" key="icon">wb_rel_nm.png</value>
+        <value type="string" key="darkIcon">wb_rel_nm_dark.png</value>
+        <value type="string" key="tooltip">放置新的N：M识别关系</value>
+        <value type="string" key="itemType">radio</value>
+        <value type="string" key="command">tool:physical/relnm</value>
+        <value type="string" key="accessibilityName">将新的N到M识别关系</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.separator.relpick">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="itemType">separator</value>
+        <value type="string" key="accessibilityName">分离器</value>
+      </value>
+
+      <value type="object" struct-name="app.ToolbarItem" id="com.mysql.wb.toolbar.tools.relpick">
+        <link type="object" key="owner" struct-name="db.Toolbar">com.mysql.wb.toolbar.tools.physical</link>
+        <value type="string" key="name">tool/relpick</value>
+        <value type="string" key="icon">wb_rel_1n_pick.png</value>
+        <value type="string" key="darkIcon">wb_rel_1n_pick_dark.png</value>
+        <value type="string" key="tooltip">使用现有列建立关系</value>
+        <value type="string" key="itemType">radio</value>
+        <value type="string" key="command">tool:physical/relpick</value>
+        <value type="string" key="accessibilityName">使用现有列放置关系</value>
+      </value>
+
+    </value>
+  </value>
+</data>
+  
